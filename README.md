@@ -2,8 +2,18 @@
 
 ## Gambaran Umum
 
-Project ini menggunakan **Olist Brazilian E-Commerce Public Dataset** untuk memperoleh insight mengenai aktivitas transaksi dan perilaku pelanggan dalam platform e-commerce.
+Project Business Intelligence dengan menggunakan dataset **Olist Brazilian E-Commerce Public Dataset** untuk memperoleh insight mengenai aktivitas transaksi dan perilaku pelanggan dalam platform e-commerce.
+
 Analisis dilakukan menggunakan alur end-to-end, dimulai dari tahap preprocessing data menggunakan Python, dilanjutkan dengan analisis dan perhitungan KPI menggunakan SQL, kemudian divisualisasikan melalui dashboard interaktif menggunakan Power BI. Kombinasi ketiga tools tersebut digunakan untuk mengolah data transaksi menjadi KPI, visualisasi, dan insight mengenai performa e-commerce, perilaku pembayaran, performa pengiriman, serta customer experience.
+
+## Dataset
+
+- **Sumber:** Olist Brazilian E-Commerce Public Dataset on Kaggle
+- [View Dataset on Google Drive](https://drive.google.com/drive/folders/1TdwOwtetvXBXXdbHEJsmz5sNz0_vPcDl?hl=ID)
+- **Jenis Data:** Data transaksi e-commerce
+- **Cakupan:** Orders, customers, products, payments, geolocation, and reviews
+
+Dataset terdiri dari beberapa tabel relasional yang menyediakan informasi mengenai pesanan pelanggan, produk, transaksi pembayaran, waktu pengiriman, dan customer reviews.
 
 ## Tujuan Analisis
 Analisis dilakukan untuk menjawab 5 KPI utama kemudian menyajikan hasil analisis dalam bentuk dashboard Power BI yang interaktif.
@@ -19,17 +29,13 @@ Selain KPI utama, analisis SQL juga digunakan untuk mendukung beberapa visualisa
 - Average Delivery Days by Product Category
 - Top 10 Customer Cities by Total Payment Value
 
-## Dashboard Overview
+## Dashboard Prewiew
 ![](assets/dashboard_preview.png)
 
-## Dataset
-
-- **Sumber:** Olist Brazilian E-Commerce Public Dataset on Kaggle
-- [View Dataset on Google Drive](https://drive.google.com/drive/folders/1TdwOwtetvXBXXdbHEJsmz5sNz0_vPcDl?hl=ID)
-- **Jenis Data:** Data transaksi e-commerce
-- **Cakupan:** Orders, customers, products, payments, geolocation, and reviews
-
-Dataset terdiri dari beberapa tabel relasional yang menyediakan informasi mengenai pesanan pelanggan, produk, transaksi pembayaran, waktu pengiriman, dan customer reviews.
+## Tools & Techniques
+- Python: Data preprocessing dan data transformation
+- SQL: KPI calculation dan data analysis
+- Power BI: Interactive dashboard dan data visualization
 
 ## Alur Analisis
 
@@ -44,8 +50,3 @@ Power BI Visualization
    ↓
 Insight
 ```
-
-## Tech Stack
-- Python: Data preprocessing dan data transformation)
-- SQL: KPI calculation dan data analysis
-- Power BI: Interactive dashboard dan data visualization
