@@ -24,7 +24,7 @@ Selain KPI utama, analisis SQL juga digunakan untuk mendukung beberapa visualisa
 
 ## Dataset
 
-- **Sumber:** Olist Brazilian E-Commerce Public Dataset
+- **Sumber:** Olist Brazilian E-Commerce Public Dataset on Kaggle
 - [View Dataset on Google Drive](https://drive.google.com/drive/folders/1TdwOwtetvXBXXdbHEJsmz5sNz0_vPcDl?hl=ID)
 - **Jenis Data:** Data transaksi e-commerce
 - **Cakupan:** Orders, customers, products, payments, geolocation, and reviews
